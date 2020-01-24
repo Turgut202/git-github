@@ -1,0 +1,908 @@
+    1  clear
+    2  useradd student
+    3  passwd student
+    4  cat /etc/passwd
+    5  clear
+    6  cat /etc/passwd | less
+    7  clear
+    8  cat /etc/shadow
+    9  clear
+   10  ip 
+   11  ip a
+   12  clear
+   13  vim /etc/sysctl.conf 
+   14  clear
+   15  cd /etc/yum.repos.d/
+   16  ls
+   17  cd
+   18  clear
+   19  ls -l
+   20  clear
+   21  free -m
+   22  free
+   23  free -m
+   24  clear
+   25  vim /etc/fstab 
+   26  df -h
+   27  lsblk 
+   28  clear
+   29  history 
+   30  ip a
+   31  clear
+   32  ip a
+   33  history 
+   34  clear
+   35  ls -l=turgut
+   36  turgut=ls -l
+   37  turgut=ls
+   38  turgut
+   39  ls
+   40  ls=turgut
+   41  turgut
+   42  clear
+   43  turgut="ls -l"
+   44  turgut
+   45  ls -l="turgut"
+   46  alias
+   47  alias turgut="ls -l"
+   48  turgut
+   49  clear
+   50  cat Hello World > test.txt
+   51  clear
+   52  cat Hello World < test.txt
+   53  Hello World < test.txt
+   54  Hello World > test.txt
+   55  who
+   56  who > test
+   57  cat test
+   58  clear
+   59  man man
+   60  clear
+   61  mandb
+   62  clear
+   63  mandb
+   64  clear
+   65  vim test
+   66  rm -rf test
+   67  vim test
+   68  clear
+   69  ls -l
+   70  cd
+   71  clear
+   72  -cd /etc
+   73  cd /etc/
+   74  ls
+   75  cd
+   76  clear
+   77  useradd anna
+   78  passwd anna
+   79  cat /etc/passwd
+   80  clear
+   81  vim file
+   82  ls -l
+   83  cat file 
+   84  cd
+   85  clear
+   86  mkdir folder 1
+   87  rm rf folder 1
+   88  rm rf folder/
+   89  ls -l
+   90  mkdir folder1
+   91  mkdir -p folder1/new
+   92  cd folder
+   93  cd
+   94  cd folder1
+   95  ls
+   96  cd
+   97  clear
+   98  find /etc/ -size 1000KB -exec cp {} -r /folder1/new \;
+   99  find /etc/ -size 1000K -exec cp {} -r /folder1/new \;
+  100  find /etc/ -size 1000c -exec cp {} -r /folder1/new \;
+  101  find /etc/ -size 1
+  102  find /etc/ -size 1MB -exec cp {} -r /folder1/new \;
+  103  find /etc/ -size +1MB -exec cp {} -r /folder1/new \;
+  104  find /etc/ -size +1M -exec cp {} -r /folder1/new \;
+  105  mkdir -p /folder1/new
+  106  find /etc/ -size +1M -exec cp {} -r /folder1/new \;
+  107  cd folder1/new/
+  108  ls -l
+  109  cd
+  110  clear
+  111  man size
+  112  cler
+  113  clear
+  114  find /etc/ -size -1000c -exec cp {} -r /folder1/new \;
+  115  clear
+  116  mount /dev/cdrom /mnt
+  117  cd /mnt
+  118  ls
+  119  cd
+  120  mkdir /rhel8
+  121  rsync -arv /mnt/* /rhel8/
+  122  cd /rhel8/
+  123  ls
+  124  ls -l
+  125  cd
+  126  clear
+  127  cd /etc/yum.repos.d/
+  128  ls
+  129  vim base.repo
+  130  vim apps.repo
+  131  yum clean all
+  132  yum replist
+  133  yum repolist
+  134  yum install httpd
+  135  vim base.repo
+  136  vim apps.repo.repo
+  137  vim apps.repo 
+  138  cat base.repo 
+  139  clear
+  140  yum clean all
+  141  yum repolist 
+  142  cd
+  143  clear
+  144  yum install httpd
+  145  systemctl enable httpd.service 
+  146  systemctl start httpd.service 
+  147  systemctl status httpd.service 
+  148  clear
+  149   init 0
+  150  clear
+  151  ls -l
+  152  clear
+  153  ls -l
+  154  clear
+  155  pwd
+  156  clear
+  157  cd /home/
+  158  pwd
+  159  cd
+  160  clear
+  161  cd
+  162   clea
+  163  clear
+  164  su - turgut
+  165  ip a
+  166  clear
+  167  cd /etc/sudoers.d/
+  168  ls -l
+  169  cd
+  170  visudo
+  171  cat /etc/gshadow
+  172  cat /etc/gshadow | grep wheel]
+  173  cat /etc/gshadow | grep wheel
+  174  clear
+  175  cd /etc/ssh/
+  176  ls -l
+  177  cd /etc/ssh/ssh_config.d/
+  178  ls -l
+  179  cd..
+  180  cd .
+  181  cd ..
+  182  cd ssh_config.d
+  183  ls -l
+  184  cd ..
+  185  cd ssh_config
+  186  cat ssh_config
+  187  clear
+  188  cd
+  189  clear
+  190  cat /etc/passwd
+  191  clear
+  192  cat /etc/passwd
+  193  clear
+  194  useradd elnur
+  195  cat /etc/passwd
+  196  clear
+  197  useradd --help
+  198  clear
+  199  usermod elnur -s /sbin/nologin
+  200  cat /etc/passwd
+  201  usermod elnur -s /bin/bash
+  202  cat /etc/passwd
+  203  clear
+  204  groupadd finance
+  205  usemod -aG elnur finance
+  206  usermod -aG elnur finance
+  207  usermod -aG finance elnur
+  208  userdel -f elnur
+  209  cat /etc/passwd
+  210  userdel -r elnur
+  211  useradd elnur
+  212  cat /etc/passwd
+  213  userdel -rf elnur
+  214  clear
+  215  cat /etc/passwd
+  216  clear
+  217  useradd -D
+  218  cat /etc/default/useradd 
+  219  vim /etc/default/useradd 
+  220  cd /etc/skel/
+  221  ls -l
+  222  clear
+  223  cd
+  224  clear
+  225  vim /etc/login.defs 
+  226  chage anna 
+  227  clear
+  228  cat /etc/login.defs 
+  229  vim /etc/login.defs 
+  230  cd /etc/skel/
+  231  ls -l
+  232  clear
+  233  cd
+  234  clear
+  235  cat /etc/shadow
+  236  cat /etc/passwd
+  237  cat /etc/shadow
+  238  cat /etc/passwd
+  239  clear
+  240  groupadd sales
+  241  cat /etc/gr
+  242  cat /etc/group
+  243  clear
+  244  lid -g sales
+  245  lid -g wheel
+  246  clear
+  247  vim /etc/login.defs 
+  248  cd /etc/skel/
+  249  touch newfile
+  250  ls -l
+  251  clear
+  252  cd
+  253  clear
+  254  useradd anna
+  255  useradd audrey
+  256  useradd linda
+  257  useradd lisa
+  258  cat /etc/passwd
+  259  clear
+  260  passwd anna
+  261  passwd audrey
+  262  passwd --help
+  263  passwd -l linda
+  264  passwd -l lisa
+  265  cat /etc/passwd
+  266  clear
+  267  passwd -l lisa
+  268  passwd -l linda
+  269  cat /etc/shadow
+  270  clear
+  271  groupadd profs
+  272  groupadd studentrs
+  273  groupdel --help
+  274  groupdel studentrs
+  275  groupadd students
+  276  cat /etc/group
+  277  cd
+  278  clear
+  279  usermod -aG profs anna
+  280  usermod -aG profs audrey
+  281  usermod -aG students lisa
+  282  usermod -aG students linda
+  283  lid -g profs
+  284  lid -g students
+  285  clear
+  286  touch newfile
+  287  ls -l
+  288  chmod 770 newfile 
+  289  ls -l
+  290  clear
+  291  umask
+  292  vim /etc/pro
+  293  vim /etc/profile
+  294  vim .bash_profile 
+  295  cd /home/linda/.bash_profile
+  296  vim /home/linda/.bash_profile
+  297  clear
+  298  mkdir -p /data/profs
+  299  mkdir -p /data/students
+  300  cd /data/
+  301  ls -l
+  302  cd
+  303  clear
+  304  groupadd profs
+  305  cd
+  306  clear
+  307  chmod :profs /data/profs
+  308  chown :profs /data/profs
+  309  chown :students /data/students
+  310  cd /data/
+  311  ls -l
+  312  chmod 770 /data/profs
+  313  chmod 770 /data/students
+  314  ls -l
+  315  chmod g+s /data/profs
+  316  chmod g+s /data/students
+  317  ls -l
+  318  chmod +t /data/profs
+  319  chmod +t /data/students
+  320  ls -l
+  321  setfacl -m d:g:profs:rx /data/students/
+  322  chown anna /data/students/
+  323  chown anna /data/profs
+  324  ls -l
+  325  cd
+  326  clear
+  327  cd /data/
+  328  ls -l
+  329  cd
+  330  clear
+  331  vim /etc/resolv.conf 
+  332  cd
+  333  clar
+  334  clear
+  335  nmtui
+  336  ip a
+  337  clear
+  338  cd
+  339  clear
+  340  ifconfig
+  341  ip link
+  342  clear
+  343  ip link
+  344  ip -a link
+  345  clear
+  346  ip -s link
+  347  ls -l
+  348  clear
+  349  ls -il
+  350  pwd
+  351  ln /root/videos /root/myvd
+  352  d
+  353  cd
+  354  clear
+  355  ls -l
+  356  ln /root/file /root/turgut
+  357  ls -l
+  358  cat file 
+  359  cat turgut 
+  360  rm -rf file 
+  361  ls -l
+  362  cat turgut 
+  363  clear
+  364  ls -l
+  365  ln -s /root/test turgut
+  366  ln -s /root/test turgut2
+  367  ls -l
+  368  cat turgut
+  369  cat test
+  370  clear
+  371  ln -s
+  372  ln -l
+  373  ls -l
+  374  rm -rf turgut2
+  375  ls -l
+  376  cd
+  377  clear
+  378  ls -l
+  379  tar -cvf turgut.tar /root/vide
+  380  tar -cvf turgut.tar /root/videos
+  381  clear
+  382  ls -l
+  383  tar -tvf turgut.tar 
+  384  rm -rf turgut.tar
+  385  ls -l
+  386  clear
+  387  ls -l
+  388  cd folder1
+  389  ls
+  390  cd
+  391  tar -cvf hote.tar /root/folder1
+  392  ls -l
+  393  tar -tvf hote.tar 
+  394  gzip hote.tar 
+  395  ls -l
+  396  clear
+  397  ls -l
+  398  tar -xvf hote.tar.gz 
+  399  ls -l
+  400  cd /etc/
+  401  ls
+  402  cd
+  403  clear
+  404  ls -l
+  405  mv hote.tar.gz home.tar.gz
+  406  ls -
+  407  ls -l
+  408  clear
+  409  file home.tar.gz 
+  410  clear
+  411  history 
+  412  clear
+  413  mkdir -p /tmp/files/pictures
+  414  mkdir -p /tmp/files/videos
+  415  mkdir -p /tmp/files/photos
+  416  cd /tmp/files/
+  417  ls -l
+  418  clear
+  419  cd
+  420  clear
+  421  cp [abc]* /etc/ /tmp/files/
+  422  cp -r [abc]* /etc/ /tmp/files/
+  423  cd /tmp/files/
+  424  ls -l
+  425  cd
+  426  cp /etc/[abc]* /tmp/files/
+  427  cp /tmp/files/[ab]* /tmp/files/photos/
+  428  cp /tmp/files/[ac]* /tmp/files/videos/
+  429  cd /tmp/files/photos/
+  430  ls -l
+  431  cd /tmp/files/videos/
+  432  ls -l
+  433  cd
+  434  clera
+  435  clear
+  436  find /etc/ -size 1000c -exec cp -r {} /tmp/files/pictures/ \;
+  437  cd /tmp/files/pictures/
+  438  ls -l
+  439  find /etc/ -size -1000c -exec cp -r {} /tmp/files/pictures/ \;
+  440  ls -l
+  441  cd
+  442  clear
+  443  cd /tmp/files/
+  444  ln -s .
+  445  ls -l
+  446  ls -s /var/ .
+  447  ls -l
+  448  cd
+  449  clear
+  450  cd /tmp/files/
+  451  ln -s . /var/
+  452  ls -l
+  453  ln -s . /var
+  454  ls -l
+  455  cd
+  456  ls -l
+  457  cd
+  458  clear
+  459  tar -cfv home.tar /home
+  460  ls -l
+  461  rm -rf home.tar.gz 
+  462  clear
+  463  tar -cvf home.tar /home
+  464  ls -l
+  465  clear
+  466  cd /tmp/
+  467  mkdir archive
+  468  ls -l
+  469  cd
+  470  clear
+  471  tar -xvf home.tar -p /tmp/archive
+  472  tar -xvf home.tar /tmp/archive
+  473  tar --help
+  474  clear
+  475  tar -xvf home.tar -C /tmp/archive
+  476  cd /tmp/at
+  477  cd /tmp/archive/
+  478  ls -l
+  479  cd home/
+  480  ls -l
+  481  clear
+  482  cd
+  483  clear
+  484  less /etc/
+  485  more /etc/
+  486  clear
+  487  more /etc/
+  488  more /etc/passwd
+  489  less /etc/passwd
+  490  clear
+  491  head /etc/passwd
+  492  tail /etc/passwd
+  493  head -n 10 /etc/passwd
+  494  clear
+  495  tail -n 15 /etc/passwd
+  496  clear
+  497  cat -s /etc/passwd
+  498  clear
+  499  cat -b /etc//passwd
+  500  cat -b /etc/passwd
+  501  clear
+  502  cat -b /etc/passwd
+  503  clear
+  504  tr /etc/passwd
+  505  clear
+  506  cat /etc/passwd | grep apache
+  507  clear
+  508  cat /etc/shadow
+  509  clear
+  510  cat /etc/shadow | grep radvd
+  511  clear
+  512  grep apache /etc/passwd
+  513  clear
+  514  lsblk
+  515  clear
+  516  df -h
+  517  clear
+  518  grep -r /etc/passwd
+  519  grep -r root /etc/passwd
+  520  grep -R /etc/passwd
+  521  clear
+  522  vim file
+  523  sed -n4 file 
+  524  clear
+  525  ls -l
+  526  sed -n 4p file 
+  527  sed -i s/four/FOUR/g file
+  528  cat file 
+  529  sed -i s/four/FOUUR/ file
+  530  cat file 
+  531  sed -i s/four/FOUUR/g file
+  532  cat file 
+  533  sed -i s/FOUR/FOUUR/ file
+  534  cat file 
+  535  clear
+  536  ls -l
+  537  clear
+  538  head /etc/passwd
+  539  tail /etc/passwd
+  540  grep root /etc/
+  541  grep *root* /etc/
+  542  ls -l | grep root
+  543  clear
+  544  ls -l /etc/ | grep ***
+  545  clear
+  546  head -n 7 /et/pas
+  547  head -n 7 /etc/passwd
+  548  clear
+  549  tail -n 1 /etc//passwd
+  550  clear
+  551  sed -n 5p /etc/passwd
+  552  clear
+  553  cd /etc/
+  554  grep '\<root.>/
+  555  clear
+  556  cd
+  557  clear
+  558  cat /etc/passwd
+  559  clear
+  560  su - anna
+  561  clear
+  562  sleep 3000
+  563  jobs
+  564  killall 
+  565  clear
+  566  jobs
+  567  kill %1
+  568  jobs
+  569  clear
+  570  jobs
+  571  clear
+  572  sleep 3000 &
+  573  clear
+  574  jobs
+  575  fg 2
+  576  clear
+  577  jobs
+  578  kill %3
+  579  jobs
+  580  kill %1
+  581  jobs
+  582  clear
+  583  ps
+  584  ps aux
+  585  clear
+  586  free -m
+  587  clear
+  588  uptime
+  589  clear
+  590  sleep 3000 &
+  591  top
+  592  clear
+  593  top
+  594  clear
+  595  cd /etc/yu.repos
+  596  cd /etc/yum.repos
+  597  cd /etc/yum.repos.d/
+  598  ls
+  599  car base.repo 
+  600  cat base.repo 
+  601  cat apps.repo 
+  602  clear
+  603  cd
+  604  clear
+  605  ls -l
+  606  clear
+  607  +vim /etc/fstab 
+  608  vim /etc/fstab 
+  609  yum provides *httpd*
+  610  yum module info httpd
+  611  yum history
+  612  vim /etc/systemd/system
+  613  clear
+  614  export SYSTEMD-EDITOR=vim
+  615  export SYSTEMD_EDITOR=vim
+  616  yum instal httpd
+  617  yum install httpd
+  618  systemctl edit httpd.service 
+  619  clear
+  620  systemctl status httpd
+  621  clear
+  622  systemctl edit httpd
+  623  clear
+  624  crontab -e
+  625  ls -l /etc/ | grep cron
+  626  cat /etc/crontab
+  627  clear
+  628  vim /etc/anacrontab 
+  629  systemctl status atd
+  630  clear
+  631  at+5 min now
+  632  at +5 min now
+  633  at 5 min
+  634  at 5min
+  635  at 5
+  636  at teatime
+  637  atq
+  638  clear
+  639  at 1min
+  640  at 1min from now
+  641  at 1min now
+  642  clear
+  643  vim /etc/tmpfiles.d/
+  644  clear
+  645  vim /etc/tmpfiles.d/tmp.conf
+  646  clear
+  647  vim /etc/logrotate.conf 
+  648  journalctl
+  649  clear
+  650  vim /etc/rsyslog.
+  651  vim /etc/rsyslog.conf 
+  652  clear
+  653  mkdir -p /var/log/journal
+  654  cd /var/
+  655  ls -l
+  656  mkdir log
+  657  cd log
+  658  ls -l
+  659  mkdir journal/
+  660  clear
+  661  cd
+  662  clear
+  663  vim /etc/logrotate.conf
+  664  cd /etc/logrotate.d/
+  665  ls
+  666  vim httpd 
+  667  vim chrony 
+  668  cd
+  669  clear
+  670  vim /etc/logrotate.conf
+  671  cd /etc/logrotate.d/
+  672  ls
+  673  ls -l
+  674  clear
+  675  cd
+  676  clear
+  677  vim /etc/logrotate.conf 
+  678  vim /etc/rsyslog.conf 
+  679  cd /var/log/
+  680  ls -l
+  681  touch error
+  682  vim httpd
+  683  cd
+  684  cd /etc/logrotate.d/
+  685  ls -l
+  686  touch error
+  687  vim httpd 
+  688  vim error
+  689  init 0
+  690  clear
+  691  lsblk
+  692  /var/log/httpd/*log {
+  693      missingok
+  694      notifempty
+  695      sharedscripts
+  696      delaycompress
+  697      postrotate
+  698          /bin/systemctl reload httpd.service > /dev/null 2>/dev/null || true
+  699      endscript
+  700  }/var/log/httpd/*log {
+  701      missingok
+  702      notifempty
+  703      sharedscripts
+  704      delaycompress
+  705      postrotate
+  706          /bin/systemctl reload httpd.service > /dev/null 2>/dev/null || true
+  707      endscript
+  708  }clear
+  709  clear
+  710  cd /etc/logrotate.d/
+  711  ls -l
+  712  rm -rf error 
+  713  cd
+  714  cd /etc/rsyslog.d/
+  715  ls
+  716  vim /etc/rsyslog.conf 
+  717  clear
+  718  cd
+  719  clear
+  720  df -h
+  721  clear
+  722  lsblk 
+  723  clear
+  724  lsblk
+  725  fdisk /dev/nvme0n1
+  726  clear
+  727  lsblk`
+  728  lsblk 
+  729  mkfs.xfs /dev/nvme0n1p1
+  730  fdisk /dev/nvme0n1
+  731  lsblk 
+  732  clear
+  733  lsblk 
+  734  fdisk /dev/nvme0n1
+  735  clear
+  736  lsblk 
+  737  partprobe
+  738  pvcreate /dev/nvme0n1p2
+  739  vgcreate turgutvg /dev/nvme0n1p2 
+  740  lvcreate -n turgutlv -L +1G turgutvg
+  741  lvdisplay 
+  742  clear
+  743  lsblk
+  744  mkdir /turgut
+  745  blkid
+  746  partprobe
+  747  blkid
+  748  partprobe /dev/nvme0n1
+  749  blkid
+  750  clear
+  751  blkid 
+  752  systemctl daemon-reload
+  753  blkid
+  754  lsblk
+  755  vim /etc/fstab 
+  756  clear
+  757  blkid 
+  758  mkfs.xfs /dev/turgutvg/turgutlv 
+  759  blkid
+  760  vim /etc/fstab 
+  761  mount -
+  762  mount -a
+  763  df -h
+  764  clear
+  765  lsblk 
+  766  clear
+  767  getenforce
+  768  setenforce 1
+  769  getenforce
+  770  setenforce 0
+  771  getenforce
+  772  setenforce 1
+  773  getenforce
+  774  clear
+  775  df -h
+  776  clear
+  777  lsblk 
+  778  fdisk /dev/nvme0n1
+  779  clear
+  780  lsblk
+  781  lsblk 
+  782  partprobe
+  783  mkswap /dev/nvmen1p3
+  784  mkswap /dev/nvme0n1p3
+  785  free -m
+  786  vim /etc/fstab 
+  787  mount -a
+  788  swapon -a
+  789  free -m
+  790  clear
+  791  cat /etc/fstab 
+  792  clera
+  793  clear
+  794  firewall-cmd --add-service=http
+  795  firewall-cmd --add-service=http --permanent 
+  796  firewall-cmd --add-service=http
+  797  firewall-cmd -list-all
+  798  firewall-cmd --list-all
+  799  clear
+  800  vim /etc/default/grub 
+  801  vim /etc/sysctl.conf 
+  802  clear
+  803  vim /etc/ssh/sshd_config 
+  804  cd /var/www/html/
+  805  ls -l
+  806  vim index.html
+  807  curl http://localhost
+  808  clear
+  809  ip a
+  810  vim /etc/httpd/conf/httpd.conf 
+  811  systemctl status httpd
+  812  clear
+  813  systemctl status httpd
+  814  clear
+  815  cd
+  816  clear
+  817  vim /etc/sysconfig/selinux 
+  818  getenforce 
+  819  clear
+  820  ls -l
+  821  clear
+  822  getsebool 
+  823  getsebool --list-all
+  824  getsebool --list
+  825  getsebool list
+  826  getsebool --help
+  827  clear
+  828  getsebool -a
+  829  setsebool zabbix_run_sudo on
+  830  getsebool -a
+  831  clear
+  832  man semanage-fcontext 
+  833  clear
+  834  ls -Zl http
+  835  ls -Zl /etc/passwd
+  836  clear
+  837  auditd
+  838  sealert
+  839  cat /var/log/messages 
+  840  clear
+  841  ls -l
+  842  cat initial-setup-ks.cfg 
+  843  vim initial-setup-ks.cfg 
+  844  timedatectl 
+  845  timedatectl set-timezone Asia/Baku 
+  846  timedatectl 
+  847  clear
+  848  yum repolist
+  849  clear
+  850  yum groupinstall "Development Tools"
+  851  yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
+  852  clear
+  853  yum install wget
+  854  clear
+  855  wget https://www.kernel.org/pub/software/scm/git/it-2.7.2.tar.gz
+  856  wget https://www.kernel.org/pub/software/scm/git/git-2.7.2.tar.gz
+  857  tar -xvf git-2.7.2.tar.gz 
+  858  ls
+  859  cd git-2.7.2/
+  860  ls -l
+  861  clear
+  862  ls
+  863  clear
+  864  make configure
+  865  ./configure --prefix=/usr/local
+  866  clear
+  867  make install
+  868  git --version
+  869  clear
+  870  git config --global user.name "Turgut202"
+  871  git config --global user.email "mr.atashov@hotmail.com"
+  872  git config --list
+  873  ssh-keygen -t rsa -b 4096 -C "mr.atashov@hotmail.com"
+  874  eval "$(ssh-agent -s)"
+  875  clear
+  876  ssh-add ~/.ssh/id_rsa
+  877  cat ~/.ssh/id_rsa
+  878  cat ~/.ssh/id_rsa.pub 
+  879  clear
+  880  ssh -T git@github.com
+  881  clear
+  882  mkdir git-repo
+  883  cd git-repo
+  884  clear
+  885  git init
+  886  clear
+  887  git remote add origin git@github.com:Turgut202/git-github.git
+  888  ls
+  889  pwd
+  890  git pull origin master
+  891  ls
+  892  cat edu4
+  893  cat edu4.txt 
+  894  clear
+  895  vim myfile
+  896  ls
+  897  git add /
+  898  git add .
+  899  git commit -a -m "newfile"
+  900  git push origin master 
+  901  history > C:\Users\Turgut.Atashov\Desktop\Projects\GitLab\My Project 2\history.txt
+  902  history > C:\Users\Turgut.Atashov\Desktop\Projects\GitLab\My Project 2\history
+  903  history > C:\Users\Turgut.Atashov\Desktop\Projects\GitLab\My Project 2
+  904  history > C:\Users\Turgut.Atashov\Desktop\history.txt
+  905  history
+  906  clear
+  907  touch history.txt
+  908  history > history.txt 
