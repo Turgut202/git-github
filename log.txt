@@ -1,0 +1,59 @@
+commit 0af215f6c7442d5e77a4f6615154d5c36924cff1
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 10:42:03 2020 +0400
+
+    reverted
+
+commit d8e07be890063ef22291f8fa59ef6cd5e9af2eac
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 10:40:59 2020 +0400
+
+    revert file
+
+commit 81f377d3cbb84045aec4bb2c0081570ccac8a238
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 10:23:08 2020 +0400
+
+    new files 5 and 6
+
+commit 6e3f883d937a46e0db342f2c770de6e9562d27fa
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 10:16:23 2020 +0400
+
+    modification on edu4
+
+commit d48c9561a89878f55a572e8cb5c728ae31bd0092
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 10:02:33 2020 +0400
+
+    make changes in edu4
+
+commit fd22910775a2cdfdba54e9b79d3f08377c37a716
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 09:23:19 2020 +0400
+
+    modified edu1
+
+commit dbc160de3d86ac975b6b6816a05d57ad5f6a4a2b
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 09:21:16 2020 +0400
+
+    added 2 projects
+
+commit d85388b5da596dcf319b21aa33a4c3d0ccf35baa
+Author: Turgut <mr.atashov@hotmail.com>
+Date:   Fri Jan 24 09:20:01 2020 +0400
+
+    first commit
+
+commit 41d088687a8a7f064a1deea2c152154e4623c1d7
+Author: Turgut202 <54538341+Turgut202@users.noreply.github.com>
+Date:   Fri Jan 24 09:06:55 2020 +0400
+
+    Update README.md
+
+commit 1ed0b19d9abcd904fb7e122e6d4217526c613193
+Author: Turgut202 <54538341+Turgut202@users.noreply.github.com>
+Date:   Fri Jan 24 09:06:01 2020 +0400
+
+    Initial commit
