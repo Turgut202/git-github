@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p "Add something:" var
+
+if [! $var =~ ^[0-9]$']
+then
+        echo "Please add a number:"
+        exit 1
+
+else
+        echo "Number is: $var "
+fi
+
